@@ -6,6 +6,8 @@ Schlimmer war nur noch die Lightbox. Nach einigem Recherchieren hatte ich mich f
 
 Entsprechend habe ich mir für IM5 vorgenommen, die Gallerie sowie die Lightbox über mein Theme zu regeln.
 
+# Iterationen und Ansätze
+
 Nach einem optimistischen Start musste ich bald merken, dass es garnicht so viele Ressourcen zur Programmierung einer eigenen Lightbox in Wordpress gibt.
 Die meisten Webseiten verweisen auf ihr eigene Plugin oder auf Elementor - was ich beides nicht wollte.
 
