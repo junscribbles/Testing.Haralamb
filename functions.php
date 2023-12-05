@@ -93,6 +93,8 @@
                 const body = e.target.parentNode;
                 body.removeChild(e.target);
 
+                document.body.classList.remove('stop-scrolling')
+
             } else if (e.target.matches('.cookie_box-next')) {
                 imageSrc = lightImage.getAttribute('src');
                 index = imageGroup[galley_id].findIndex(item => item.getAttribute('src') === imageSrc);
@@ -130,6 +132,8 @@
             } else if (e.target.matches('.cookie_box-close')) {
                 const body = e.target.parentNode.parentNode.parentNode;
                 body.removeChild(e.target.parentNode.parentNode);
+
+                document.body.classList.remove('stop-scrolling')
 
             }
         }
