@@ -1,0 +1,438 @@
+/*
+Theme Name: TestingHaralamb
+Author: dharalamb
+Author URI: https://www.haralamb.ch/
+Description: The Official Haralamb Theme
+Version: 0.2
+*/
+
+:root, body, header, section, article, footer, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --clr-bg: #242222;
+    --clr-txt: #fcfcfc;
+    --clr-link: #e0bc1a;
+    --clr-footer: #6e6a64;
+    --clr-lightbox: rgba(36, 34, 34, 0.8);
+
+    --trs-main: 300ms;
+
+    scroll-behavior: smooth;
+    scrollbar-color: var(--clr-link) var(--clr-bg)
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-link);
+    transition: var(--trs-main);
+}
+
+a:hover {
+    color: var(--clr-txt);
+}
+
+h1 {
+    font-family: good-times, sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+
+    color: var(--clr-txt);
+}
+
+h2 {
+    font-family: good-times, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+
+    padding-top: 1.5rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-family: sinter, sans-serif; 
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+/* h4 {
+    font-family: good-times, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+
+    padding-top: 1.5rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+} */
+
+p {
+    font-family: sinter, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.2rem;
+
+    max-width: 65ch;
+}
+
+body {
+    background-color: var(--clr-bg);
+    color: var(--clr-txt);
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section#logo {
+    position: absolute;
+    z-index: -1;
+}
+
+svg.logo-w {
+    fill: var(--clr-txt);
+}
+
+#logo svg {
+    opacity: 0.3;
+
+    height: 75vh;
+
+    margin-top: 5vh;
+    margin-left: -10%;
+}
+
+section#start {
+    float: left;
+
+    margin-top: 65vh;
+    margin-left: 7.5vw;
+}
+
+nav {
+    margin-top: 4.5em;
+    box-sizing: border-box;
+    width: 20vw;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+
+section#start li {
+    padding-right: 1.5em;
+    font-family: sinter, sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+main {
+    max-width: 80vw;
+    margin-left: 10vw;
+}
+
+main article {
+    width: 80vw;
+}
+
+#static {
+    grid-column: 1 / 2;
+    grid-row: 1 /2;
+}
+
+#static h4 {
+    margin-top: 0;
+}
+
+/* Gallery: Here are all the style parameters for my own gallery */
+
+body figure.wp-block-gallery.has-nested-images {
+    justify-content: center;
+}
+
+body .wp-lightbox-container img {
+    cursor: pointer;
+}
+
+body .wp-block-gallery.has-nested-images:not(.is-cropped) figure.wp-block-image:not(#individual-image) {
+    overflow: hidden;
+    height: 20rem;
+    max-height: fit-content;
+    width: auto;
+    max-width: fit-content;
+}
+
+body .wp-block-gallery.has-nested-images figure.wp-block-image img {
+    height: 100%;
+    width: auto;
+}
+
+body .wp-block-gallery.has-nested-images figure.wp-block-image img:hover {
+    transform: scale(1.02);
+}
+
+/* Lightbox: Here is the style for my copied lightbox / cookie box */
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.cookie_box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cookie_box-content {
+    width: 90vw;
+    margin: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+}
+
+.cookie_box-content img {
+    height: auto;
+    max-height: 85vh;
+    width: auto;
+    max-width: 50vw;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.cookie_box-content i {
+    color: white;
+    font-size: 60px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+i.cookie_box-prev, i.cookie_box-next {
+    padding: 30px 20px;
+}
+
+svg.cookie_box-prev, svg.cookie_box-next {
+    pointer-events: none;
+}
+
+i.cookie_box-close {
+    position: fixed;
+    top: 25px;
+    right: 50px;
+}
+
+.cookie_box-text {
+    width: 30vw;
+    height: 30vh;
+    padding-left: 50px;
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    margin-top: 5rem;
+
+    background-color: rgba(252, 252, 252, 0.3);
+
+    display: flex;
+    justify-content: end;
+    
+}
+
+.social {
+    margin: auto 0;
+    margin-right: 5vw;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social a {
+    margin-left: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.social svg {
+    margin: auto 0;
+    padding: 0;
+    fill: var(--clr-txt);
+    height: 1.5rem;
+
+    transition: var(--trs-main);
+}
+
+.social svg:hover {
+    fill: var(--clr-link);
+}
+
+/* -----------
+Media Query Extra Small
+----------- */
+
+@media only screen and (min-width: 320px) and (max-width: 1199px) {
+
+    :root {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    #logo svg {
+        margin-left: -27%;
+    }
+
+    body .wp-block-gallery.has-nested-images:not(.is-cropped) figure.wp-block-image:not(#individual-image) {
+        height: revert;
+    }
+
+    .cookie_box-text {
+        position: fixed;
+        bottom: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+        left: 0;
+        width: 100%;
+
+        align-items: center;
+        padding-left: revert;
+    }
+
+    .cookie_box-text p {
+        width: fit-content;
+        margin-left: 4ch;
+        margin-right: 4ch;
+    }
+
+    .cookie_box-content img {
+        max-width: 60vw;
+    }
+
+}
+
+/* -----------
+Media Query Extra Small Landscape
+----------- */
+
+@media only screen and (min-width: 320px) and (max-width: 1199px) and (min-height: 320px) and (max-height: 950px) {
+
+    .cookie_box-text {
+        bottom: -1rem;
+    }
+
+    .cookie_box-text p {
+        display: none;
+    }
+}
+
+/* -----------
+Media Query Small
+----------- */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    :root {
+        font-size: 14px;
+    }
+
+    #logo svg {
+        margin-left: -22%;
+    }
+
+    .cookie_box-content img {
+        max-width: 70vw;
+        max-height: 70vh;
+    }
+
+}
+
+/* -----------
+Media Query tablet
+----------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+    :root {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    #logo svg {
+        margin-left: -15%;
+    }
+
+    .cookie_box-content img {
+        max-width: 75vw;
+        max-height: 70vh;
+    }
+    
+}
+
+/* -----------
+Media Query small Desktop
+----------- */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    :root {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    body .wp-block-gallery.has-nested-images:not(.is-cropped) figure.wp-block-image:not(#individual-image) {
+        height: 20rem;
+    }
+
+    .cookie_box-content img {
+        max-width: 80vw;
+        max-height: 70vh;
+    }
+    
+}
