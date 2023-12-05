@@ -17,6 +17,7 @@ Leider scheiterte es schlussendlich schon nur daran.
 Im Verlauf des Projektes versuchte ich die Colorbox auf insgesamt drei Arten in mein Theme einzubinden. Einmal anhand der Anleitung von Jack Moore, einmal anhand eines Beitrages auf Sitepoint.com (https://www.sitepoint.com/adding-a-stylish-lightbox-effect-to-the-wordpress-gallery/)
 und einmal anhand eines Beitrages auf jasong-designg.com (https://www.sitepoint.com/adding-a-stylish-lightbox-effect-to-the-wordpress-gallery/). Leider ohne Erfolg.
 Zugegeben war es auch sehr optimistisch JQuery zu nutzen, ohne mich zuvor damit auseinander zu setzen.
+(Die verworfenen Ansätze sind im Ordner "unused scripts" abgelegt)
 
 Nach einem Coaching mit Nick nahm ich mir vor die Lightbox von Grund auf selber zu programmiere. Schliesslich hatte ich schon eine Vorlage von meiner vorherigen Hardcode Webseite.
 Jedoch konnte ich es nicht lassen noch einmal zu recherchieren - zum Glück.
