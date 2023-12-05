@@ -49,7 +49,11 @@ Im Anschluss zu IM5 werde ich die Gallerie und Lightbox auf meine Hauptseite üb
 # Quellen
 
 https://www.jacklmoore.com/colorbox/
+
 https://www.sitepoint.com/adding-a-stylish-lightbox-effect-to-the-wordpress-gallery/
+
 https://www.jasong-designs.com/2020/03/30/adding-a-robust-lightbox-script-to-a-wordpress-theme/
+
 https://redpishi.com/wordpress-tutorials/lightbox-wordpress/
+
 Chat-GPT (im Code deklariert)
