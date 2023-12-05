@@ -15,7 +15,7 @@ Nach einigem Recherchieren stiess ich auf die JQuery Colorbox von Jack Moore (ht
 Obschon die Beispiele nicht meinem Geschmack entsprechen, dachte ich mir, dass ich das Aussehen immernoch ändern kann sobald die Lightbox implementiert ist.
 Leider scheiterte es schlussendlich schon nur daran.
 Im Verlauf des Projektes versuchte ich die Colorbox auf insgesamt drei Arten in mein Theme einzubinden. Einmal anhand der Anleitung von Jack Moore, einmal anhand eines Beitrages auf Sitepoint.com (https://www.sitepoint.com/adding-a-stylish-lightbox-effect-to-the-wordpress-gallery/)
-und einmal anhand eines Beitrages auf jasong-designg.com (https://www.sitepoint.com/adding-a-stylish-lightbox-effect-to-the-wordpress-gallery/). Leider ohne Erfolg.
+und einmal anhand eines Beitrages auf jasong-designg.com (https://www.jasong-designs.com/2020/03/30/adding-a-robust-lightbox-script-to-a-wordpress-theme/). Leider ohne Erfolg.
 Zugegeben war es auch sehr optimistisch JQuery zu nutzen, ohne mich zuvor damit auseinander zu setzen.
 (Die verworfenen Ansätze sind im Ordner "unused scripts" abgelegt)
 
@@ -45,3 +45,11 @@ Im moment läuft mein Projekt noch auf der Testseite testing.haralamb.ch
 Bevor ich die Gallerie sowie Lightbox auf meine Hauptseite übernehme werde ich versuchen das Problem mit Titel, Caption usw. sowie dem Scrolling zu beheben.
 Falls sich das nicht einfach lösen lässt, werde ich mit den Problemen leben können.
 Im Anschluss zu IM5 werde ich die Gallerie und Lightbox auf meine Hauptseite übernehmen.
+
+# Quellen
+
+https://www.jacklmoore.com/colorbox/
+https://www.sitepoint.com/adding-a-stylish-lightbox-effect-to-the-wordpress-gallery/
+https://www.jasong-designs.com/2020/03/30/adding-a-robust-lightbox-script-to-a-wordpress-theme/
+https://redpishi.com/wordpress-tutorials/lightbox-wordpress/
+Chat-GPT (im Code deklariert)
