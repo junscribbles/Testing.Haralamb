@@ -1,4 +1,4 @@
-# Aktueller Stand und Ziel
+# Stand vor Projekt und Ziel
 
 In den vergangenen Semestern habe ich meine Webseite haralamb.ch zuerst gecoded und später in ein Wordpress-Theme verwandelt.
 Im Hardcode hatte ich die Gallerie per Grid definiert und einen eigene Lightbox gecoded. Durch Wordpress wurde das Erstellen und Erweitern der Gallerie zwar einfacher, jedoch hatte ich auch weniger Einstellungsmöglichkeiten.
