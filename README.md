@@ -25,8 +25,16 @@ Zu meinem Glück funktionierte der Code im ersten Anlauf. Nun musste ich nur noc
 So wollte ich beispielsweise nicht nur das Bild, sondern auch den Titel und eine Beschreibung hinzufügen. Und obschon ich eine Idee hatte wie ich das programmieren könnte, entschied ich mich dazu die Programmierfähigkeiten von Chat-GPT zu testen.
 Zuerst legte ich der AI den bestehenden Code vor und fragte, ob sie den Inhalte verstünde. Als das bestätigt wurde, liess ich Chat-GPT den Code ergänzen - und erhielt prompt was ich brauchte.
 
-Endresultat
+Nun musste ich das ganze nur noch richtig stylen, einen Close-Button erstellen und responsive machen und fertig war die Gallerie und Lightbox.
 
-Probleme
+Obschon die Gallerie und Litghtbox im Frontend gut aussieht und funktioniert, läuft nich alles so wie ich geplant habe.
+Beim Upload eines Bildes in die Wordpress Library kann man Titel, Caption und Alternative Title definieren. Leider werden diese Parameter standardmässig nicht an die Gallerie weitergegeben.
+Aktuell muss ich den Titel sowie die Beschreibung in der Gallerie definieren. Die Inhalte in der Library haben keinen Einfluss.
 
-Zukunft
+Währenddem die Lightbox geöffnet ist, erhält der Body die Klasse "stop-scrolling" welche die Werte "Height: 100%, Overflow: hidden" enthält.
+So konnte ich das Scrollen währenddem die Lightbox geöffnet ist in vorigen Versionen verhindern. Leider funktioniert es im Moment nicht und ich fand bisher nicht heraus weshalb.
+
+Im moment läuft mein Projekt noch auf der Testseite testing.haralamb.ch
+Bevor ich die Gallerie sowie Lightbox auf meine Hauptseite übernehme werde ich versuchen das Problem mit Titel, Caption usw. sowie dem Scrolling zu beheben.
+Falls sich das nicht einfach lösen lässt, werde ich mit den Problemen leben können.
+Im Anschluss zu IM5 werde ich die Gallerie und Lightbox auf meine Hauptseite übernehmen.
